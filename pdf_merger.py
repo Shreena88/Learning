@@ -27,7 +27,7 @@ def merge_pdfs(folder_path, output_filename):
     output_path = os.path.join(folder_path, output_filename)
     try:
         merger.write(output_path)
-        print(f"n Merged PDF created : {output_path}")
+        print(f"Merged PDF created : {output_path}")
     except Exception as e:
         print(f"Failed to merge pdf: {e}")
     finally:
